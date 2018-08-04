@@ -5,6 +5,7 @@
 # Basic Variables
 EDITOR=nano
 # Enable special aliases
+MY_GIT_ALIASES=true
 MY_PYTHON_ALIASES=false
 MY_ANGULAR_ALIASES=true
 MY_DOCKER_ALIASES=true
@@ -41,9 +42,14 @@ alias reload_bash="source ~/.bashrc"
 # Shell: Z Shell
 alias reload_zsh="source ~/.zshrc"
 
+# Development: Git
+if [ "$MY_GIT_ALIASES" = true ] ; then
+  #TODO
+fi
+
 # Development: Python
 if [ "$MY_PYTHON_ALIASES" = true ] ; then
-  alias py_devenv="source ~/Workspace/python-devenv/bin/activate"
+  alias py_devenv="source ~/Documents/My_Projects/python-devenv/bin/activate"
   alias py_webserver="python -m SimpleHTTPServer 8182"
   alias py_notebook="jupyter notebook"
 fi
@@ -51,6 +57,7 @@ fi
 # Development: Angular 6
 if [ "$MY_ANGULAR_ALIASES" = true ] ; then
   alias ngs='ng serve --open'
+  alias npmrl='npm run local'
 fi
 
 # Development: Docker

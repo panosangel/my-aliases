@@ -3,7 +3,7 @@
 # Basic Variables
 EDITOR=nano
 # Enable special aliases
-MY_PYTHON_ALIASES=false
+MY_GIT_ALIASES=true
 MY_ANGULAR_ALIASES=true
 
 # System commands
@@ -24,21 +24,22 @@ alias dnsflush="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper
 alias edit_hosts="sudo $EDITOR /etc/hosts"
 
 # GoTo section
-alias goto_projects="cd ~/Documents/My\ Projects"
+alias goto_projects="cd ~/Documents/My_Projects"
 alias goto_pf="cd ~/Documents/My_Projects/ergo.hellas.portal.frontend"
 alias goto_pb="cd ~/Documents/My_Projects/ergo.hellas.portal.backend"
 
-# Z Shell section
-alias zshreload="source ~/.zshrc"
+# Shell: BASH
+alias reload_bash="source ~/.bashrc"
 
-# Development: Python
-if [ "$MY_PYTHON_ALIASES" = true ] ; then
-  alias py_devenv="source ~/Workspace/python-devenv/bin/activate"
-  alias py_webserver="python -m SimpleHTTPServer 8182"
-  alias py_notebook="jupyter notebook"
+# Shell: Z Shell
+alias reload_zsh="source ~/.zshrc"
+
+# Development: Git
+if [ "$MY_GIT_ALIASES" = true ] ; then
+  #TODO
 fi
 
-# Development - Angular 6
+# Development: Angular 6
 if [ "$MY_ANGULAR_ALIASES" = true ] ; then
   alias ngs='ng serve --open'
   alias npmrl='npm run local'
