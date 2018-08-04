@@ -1,12 +1,12 @@
 # My Aliases
 
-Description: Collection of useful aliases.
+Description: Collection of useful aliases.  
 Last Update: 2018.08.04
 
 
 ## System: GNU Linux
 
-File: my_aliases.sh
+File: my_aliases.sh  
 Destination: /etc/profile.d/
 
 ### Theory
@@ -21,30 +21,33 @@ As I explained in my question, /etc/profile or /etc/profile.d/*.sh do  NOT pass 
 
 ### Setup
 
-1) System-wide file "/etc/profile.d/my_aliases.sh".
+1) System-wide file `/etc/profile.d/my_aliases.sh`.
 
-2) User Interactive add the following lines to $HOME/.bashrc
+2) User Interactive add the following lines to `$HOME/.bashrc`
 
-Enable my_aliases in interactive shells
+Enable my_aliases in interactive shells:
 
+```
 if [ -f /etc/profile.d/my_aliases.sh ]; then
     . /etc/profile.d/my_aliases.sh
 fi
-
+```
 
 ## System: Mac OS X
 
-File: .my_aliases.sh
+File: .my_aliases.sh  
 Destination: ~/
 
 ### Setup
 
-1) System-wide file "/etc/profile".
+1) System-wide file `/etc/profile`.
 
-2) User Interactive file $HOME/.bashrc or $HOME/.zshrc
+2) User Interactive file `$HOME/.bashrc` or `$HOME/.zshrc`.
 
-Add the following lines to any of the forementioned (not both) to enable my_aliases
+Add the following lines to any of the aforementioned (not both) to enable my_aliases:
 
+```
 if [ -f ~/.my_aliases.sh ]; then
   source ~/.my_aliases.sh
 fi
+```
