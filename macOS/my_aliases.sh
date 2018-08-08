@@ -18,7 +18,7 @@ alias egrep="egrep -i --color=auto"
 alias tree="tree -F -L 1"
 
 # System tools
-
+alias g="git"
 
 # Networking
 alias dnsflush="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"

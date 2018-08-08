@@ -26,6 +26,7 @@ alias upgrade="sudo apt-get upgrade"
 alias fontupdate="sudo fc-cache -f -v"
 alias mysystem="inxi -Fxzr"
 alias mydistro="lsb_release -d -c"
+alias g="git"
 
 # Networking
 alias open_ports="sudo netstat -tupna"
