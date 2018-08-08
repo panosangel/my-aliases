@@ -31,7 +31,7 @@ alias g="git"
 # Networking
 alias open_ports="sudo netstat -tupna"
 alias listening_ports="sudo netstat -tupnl"
-alias mywanip="wget -qO- http://checkip.dyndns.org|cut -d\> -f7 |cut -d\< -f1"
+alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias myiptables="sudo iptables -vnL --line-numbers"
 
 # Quick File Editing

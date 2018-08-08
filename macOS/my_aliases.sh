@@ -21,6 +21,7 @@ alias tree="tree -F -L 1"
 alias g="git"
 
 # Networking
+alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias dnsflush="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
 
 # Quick File Editing
