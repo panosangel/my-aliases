@@ -11,6 +11,9 @@ MY_ANGULAR_ALIASES=true
 MY_DOCKER_ALIASES=true
 
 # System commands
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 alias ls="ls --color=auto"
 alias als="ls -als"
 alias alh="ls -alh"
