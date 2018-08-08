@@ -1,4 +1,5 @@
 # MY ALIASES SCRIPT
+# source: https://github.com/panosangel/my-aliases
 
 # Basic Variables
 EDITOR=nano
