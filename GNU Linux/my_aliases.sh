@@ -5,7 +5,6 @@
 # Basic Variables
 EDITOR=nano
 # Enable special aliases
-MY_GIT_ALIASES=true
 MY_PYTHON_ALIASES=false
 MY_ANGULAR_ALIASES=true
 MY_DOCKER_ALIASES=true
@@ -41,11 +40,6 @@ alias reload_bash="source ~/.bashrc"
 
 # Shell: Z Shell
 alias reload_zsh="source ~/.zshrc"
-
-# Development: Git
-if [ "$MY_GIT_ALIASES" = true ] ; then
-  #TODO
-fi
 
 # Development: Python
 if [ "$MY_PYTHON_ALIASES" = true ] ; then

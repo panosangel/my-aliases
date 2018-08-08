@@ -3,7 +3,6 @@
 # Basic Variables
 EDITOR=nano
 # Enable special aliases
-MY_GIT_ALIASES=true
 MY_ANGULAR_ALIASES=true
 
 # System commands
@@ -33,11 +32,6 @@ alias reload_bash="source ~/.bashrc"
 
 # Shell: Z Shell
 alias reload_zsh="source ~/.zshrc"
-
-# Development: Git
-if [ "$MY_GIT_ALIASES" = true ] ; then
-  #TODO
-fi
 
 # Development: Angular 6
 if [ "$MY_ANGULAR_ALIASES" = true ] ; then
