@@ -29,6 +29,7 @@ alias mydistro="lsb_release -d -c"
 alias g="git"
 
 # Networking
+alias ping="ping -c4"
 alias open_ports="sudo netstat -tupna"
 alias listening_ports="sudo netstat -tupnl"
 alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
