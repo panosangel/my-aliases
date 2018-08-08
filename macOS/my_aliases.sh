@@ -24,9 +24,9 @@ alias dnsflush="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper
 alias edit_hosts="sudo $EDITOR /etc/hosts"
 
 # GoTo section
-alias goto_projects="cd ~/Documents/My_Projects"
-alias goto_pf="cd ~/Documents/My_Projects/ergo.hellas.portal.frontend"
-alias goto_pb="cd ~/Documents/My_Projects/ergo.hellas.portal.backend"
+alias gt_projects="cd ~/Documents/My_Projects"
+alias gt_pf="cd ~/Documents/My_Projects/ergo.hellas.portal.frontend"
+alias gt_pb="cd ~/Documents/My_Projects/ergo.hellas.portal.backend"
 
 # Shell: BASH
 alias reload_bash="source ~/.bashrc"

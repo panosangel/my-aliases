@@ -34,7 +34,10 @@ alias myiptables="sudo iptables -vnL --line-numbers"
 alias edit_hosts="sudo $EDITOR /etc/hosts"
 
 # GoTo section
-alias goto_projects="cd ~/Documents/My_Projects"
+alias gt_docs="cd ~/Documents"
+alias gt_projects="cd ~/Documents/My_Projects"
+alias gt_dl="cd ~/Documents/Downloads"
+
 
 # Shell: BASH
 alias reload_bash="source ~/.bashrc"
