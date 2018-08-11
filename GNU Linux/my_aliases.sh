@@ -65,6 +65,6 @@ if [ "$MY_ANGULAR_ALIASES" = true ] ; then
 fi
 
 # Development: Docker
-if [ "$MY_DOCKER_ALIASES" = true ] ; then
+#if [ "$MY_DOCKER_ALIASES" = true ] ; then
   #TODO
-fi
+#fi
