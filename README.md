@@ -1,8 +1,6 @@
 # My Aliases
 
 Description: Linux and macOS command line aliases
-Last Update: 2018.08.04
-
 
 ## System: GNU Linux
 

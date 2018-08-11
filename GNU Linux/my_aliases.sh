@@ -8,7 +8,6 @@ EDITOR=nano
 # Enable special aliases
 MY_PYTHON_ALIASES=false
 MY_ANGULAR_ALIASES=true
-MY_DOCKER_ALIASES=true
 
 # System commands
 alias ..="cd .."
@@ -41,9 +40,8 @@ alias edit_hosts="sudo $EDITOR /etc/hosts"
 
 # GoTo section
 alias gt_docs="cd ~/Documents"
-alias gt_projects="cd ~/Documents/My_Projects"
 alias gt_dl="cd ~/Documents/Downloads"
-
+alias gt_projects="cd ~/Documents/My_Projects"
 
 # Shell: BASH
 alias reload_bash="source ~/.bashrc"
@@ -63,8 +61,3 @@ if [ "$MY_ANGULAR_ALIASES" = true ] ; then
   alias ngs='ng serve --open'
   alias npmrl='npm run local'
 fi
-
-# Development: Docker
-#if [ "$MY_DOCKER_ALIASES" = true ] ; then
-  #TODO
-#fi
