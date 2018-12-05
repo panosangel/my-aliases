@@ -33,7 +33,7 @@ alias ping="ping -c4"
 alias open_ports="sudo netstat -tupna"
 alias listening_ports="sudo netstat -tupnl"
 alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias mylocalip="sudo ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
+alias mylocalip="sudo ipp addr | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
 alias myiptables="sudo iptables -vnL --line-numbers"
 
 # Quick File Editing
