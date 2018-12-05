@@ -1,8 +1,6 @@
 # My Aliases
 
-Description: Collection of useful aliases.  
-Last Update: 2018.08.04
-
+Description: Linux and macOS command line aliases
 
 ## System: GNU Linux
 
