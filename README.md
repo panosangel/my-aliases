@@ -2,8 +2,7 @@
 Description: Linux and macOS command line aliases
 
 ## System: GNU Linux
-File: my_aliases.sh  
-Destination: /etc/profile.d/
+Destination: /etc/profile.d/my-aliases.sh
 
 ### Theory
 - https://answers.launchpad.net/ubuntu/+source/bash/+question/229895
@@ -15,29 +14,28 @@ Important: `/etc/profile` or `/etc/profile.d/*.sh` do  NOT pass aliases to inter
 - /etc/bash.bashrc = system-wide INTERACTIVE shells
 
 ### Setup
-1) System-wide file `/etc/profile.d/my_aliases.sh`.
+1) System-wide file `/etc/profile.d/my-aliases.sh`.
 
 2) User Interactive add the following lines to `$HOME/.bashrc`
 
-Enable my_aliases in interactive shells:
+Enable my-aliases in interactive shells:
 ```bash
-if [ -f /etc/profile.d/my_aliases.sh ]; then
-    . /etc/profile.d/my_aliases.sh
+if [ -f /etc/profile.d/my-aliases.sh ]; then
+    . /etc/profile.d/my-aliases.sh
 fi
 ```
 
 ## System: Mac OS X
-File: .my_aliases.sh  
-Destination: ~/
+Destination: ~/.my-aliases.sh
 
 ### Setup
 1) System-wide file `/etc/profile`.
 
 2) User Interactive file `$HOME/.bashrc` or `$HOME/.zshrc`.
 
-Add the following lines to any of the aforementioned (not both) to enable my_aliases:
+Add the following lines to any of the aforementioned (not both) to enable my-aliases:
 ```bash
-if [ -f ~/.my_aliases.sh ]; then
-  source ~/.my_aliases.sh
+if [ -f ~/.my-aliases.sh ]; then
+  source ~/.my-aliases.sh
 fi
 ```
