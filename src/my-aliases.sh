@@ -65,6 +65,7 @@ gnuLinux_aliases() {
     alias fontupdate="sudo fc-cache -f -v"
     alias mysystem="inxi -Fxzr"
     alias mydistro="lsb_release -d -c"
+    alias dstato="dstat -cdn --disk-util --disk-tps"
 
     # Networking
     alias open_ports="sudo netstat -tupna"
