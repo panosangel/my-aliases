@@ -39,6 +39,13 @@ common_aliases() {
     # Development: Angular 6
     alias ngs='ng serve --open'
     alias npmrl='npm run local'
+
+    # Docker Compose
+    alias dc='docker-compose'
+    alias dcu='docker-compose up'
+    alias dcud='docker-compose up -d'
+    alias dcl="docker-compose logs"
+    alias dcd='docker-compose down'
 }
 
 macOS_aliases() {
