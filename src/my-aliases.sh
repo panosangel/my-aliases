@@ -63,6 +63,8 @@ macOS_aliases() {
 }
 
 gnuLinux_aliases() {
+    # Update aliases script
+    alias get-my-aliases="sudo wget -P /etc/profile.d https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh"
     # System commands
     alias ls="ls --color=auto"
 
