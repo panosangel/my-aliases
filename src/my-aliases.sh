@@ -14,6 +14,7 @@ common_aliases() {
     alias alh="ls -alh"
     alias mkdir="mkdir -p -v"
     alias egrep="egrep -i --color=auto"
+    alias du="du -h"
 
     # Networking
     alias ping="ping -c4"
@@ -52,6 +53,7 @@ macOS_aliases() {
     # System commands
     alias ls="ls -G"
     alias tree="tree -F -L 1"
+    alias df="df -h"
 
     # Networking
     alias localip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
@@ -65,8 +67,10 @@ macOS_aliases() {
 gnuLinux_aliases() {
     # Update aliases script
     alias get-my-aliases="sudo wget -N -P /etc/profile.d https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh"
+
     # System commands
     alias ls="ls --color=auto"
+    alias df="df -Th"
 
     # System helpers
     alias update="sudo apt-get update"
