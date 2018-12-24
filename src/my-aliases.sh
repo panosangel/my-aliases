@@ -76,7 +76,7 @@ gnuLinux_aliases() {
     # GoTo section
     alias gt_docs="cd ~/Documents"
     alias gt_dl="cd ~/Downloads"
-    alias gt_projects="cd ~/Documents/My_Projects"
+    alias gt_projects="cd ~/My_Projects"
 }
 
 init() {
