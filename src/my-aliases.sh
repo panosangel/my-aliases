@@ -94,6 +94,9 @@ gnuLinux_aliases() {
     alias gt_docs="cd ~/Documents"
     alias gt_dl="cd ~/Downloads"
     alias gt_projects="cd ~/My_Projects"
+
+    # my-alias inception
+    alias update_my_aliases="sudo wget -q -O /etc/profile.d/my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && sudo chmod 644 /etc/profile.d/my-aliases.sh"
 }
 
 init() {
