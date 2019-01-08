@@ -62,6 +62,9 @@ macOS_aliases() {
     alias gt_docs="cd ~/Documents"
     alias gt_dl="cd ~/Downloads"
     alias gt_projects="cd ~/Documents/My_Projects"
+
+    # my-alias inception
+    alias update_my_aliases="cd ~/ && wget -O .my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && chmod 644 .my-aliases.sh && reload_zsh"
 }
 
 gnuLinux_aliases() {
