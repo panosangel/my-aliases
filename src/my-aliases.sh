@@ -62,12 +62,12 @@ macOS_aliases() {
     alias gt_docs="cd ~/Documents"
     alias gt_dl="cd ~/Downloads"
     alias gt_projects="cd ~/Documents/My_Projects"
+
+    # my-alias inception
+    alias update_my_aliases="wget -q -O ~/.my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && chmod 644 ~/.my-aliases.sh && reload_zsh"
 }
 
 gnuLinux_aliases() {
-    # Update aliases script
-    alias get-my-aliases="sudo wget -N -P /etc/profile.d https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh"
-
     # System commands
     alias ls="ls --color=auto"
     alias df="df -Th"
@@ -91,6 +91,9 @@ gnuLinux_aliases() {
     alias gt_docs="cd ~/Documents"
     alias gt_dl="cd ~/Downloads"
     alias gt_projects="cd ~/My_Projects"
+
+    # my-alias inception
+    alias update_my_aliases="sudo wget -q -O /etc/profile.d/my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && sudo chmod 644 /etc/profile.d/my-aliases.sh"
 }
 
 init() {
