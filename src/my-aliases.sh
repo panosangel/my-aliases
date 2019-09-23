@@ -97,9 +97,9 @@ gnuLinux_aliases() {
 }
 
 init() {
-    if [[ ${OSTYPE} == "linux-gnu" ]] || [[ ${OSTYPE} == "darwin"* ]]; then
+    if [[ ${OSTYPE} == "linux-gnu"* ]] || [[ ${OSTYPE} == "darwin"* ]]; then
         common_aliases
-        if [[ ${OSTYPE} == "linux-gnu" ]]; then
+        if [[ ${OSTYPE} == "linux-gnu"* ]]; then
             gnuLinux_aliases
         elif [[ ${OSTYPE} == "darwin"* ]]; then
             macOS_aliases
