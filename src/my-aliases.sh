@@ -3,8 +3,6 @@
 # MY ALIASES SCRIPT
 # source: https://github.com/panosangel/my-aliases
 
-EDITOR=nano
-
 common_aliases() {
     # System commands
     alias ..="cd .."
@@ -19,9 +17,6 @@ common_aliases() {
     # Networking
     alias ping="ping -c4"
     alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
-
-    # Quick File Editing
-    alias edit_hosts="sudo $EDITOR /etc/hosts"
 
     # Shell: BASH
     alias reload_bash="source ~/.bashrc"
