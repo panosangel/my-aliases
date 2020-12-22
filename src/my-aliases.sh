@@ -16,7 +16,7 @@ common_aliases() {
 
     # Networking
     alias ping="ping -c4"
-    alias mywanip="dig +short myip.opendns.com @resolver1.opendns.com"
+    alias my_wan_ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
     # Shell: BASH
     alias reload_bash="source ~/.bashrc"
@@ -51,7 +51,7 @@ macOS_aliases() {
     alias df="df -h"
 
     # Networking
-    alias localip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
+    alias my_local_ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
     # GoTo section
     alias gt_docs="cd ~/Documents"
@@ -70,16 +70,16 @@ gnuLinux_aliases() {
     # System helpers
     alias update="sudo apt-get update"
     alias upgrade="sudo apt-get upgrade"
-    alias fontupdate="sudo fc-cache -f -v"
-    alias mysystem="inxi -Fxzr"
-    alias mydistro="lsb_release -d -c"
+    alias update_fonts="sudo fc-cache -f -v"
+    alias my_system="inxi -Fxzr"
+    alias my_distro="lsb_release -d -c"
     alias dstato="dstat -cdn --disk-util --disk-tps"
 
     # Networking
     alias open_ports="sudo netstat -tupna"
     alias listening_ports="sudo netstat -tupnl"
-    alias myiptables="sudo iptables -vnL --line-numbers"
-    alias mylocalip="sudo ip addr | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
+    alias my_iptables="sudo iptables -vnL --line-numbers"
+    alias my_local_ip="sudo ip addr | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
     alias active_tunnels="sudo lsof -i -n | egrep '\<ssh\>'"
 
     # GoTo section
