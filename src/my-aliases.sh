@@ -24,18 +24,6 @@ common_aliases() {
     # Shell: Z Shell
     alias reload_zsh="source ~/.zshrc"
 
-    # Development tools
-    alias g="git"
-
-    # Development: Python
-    alias py_devenv="source ~/Documents/My_Projects/python-devenv/bin/activate"
-    alias py_webserver="python -m SimpleHTTPServer 8182"
-    alias py_notebook="jupyter notebook"
-
-    # Development: Angular 6
-    alias ngs='ng serve --open'
-    alias npmrl='npm run local'
-
     # Docker Compose
     alias dc='docker compose'
     alias dcu='docker compose up'
