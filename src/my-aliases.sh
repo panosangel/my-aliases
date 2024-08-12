@@ -16,7 +16,7 @@ common_aliases() {
 
     # Networking
     alias ping="ping -c4"
-    alias my_wan_ip="dig +short myip.opendns.com @resolver1.opendns.com"
+    alias my_wan_ip="curl ifconfig.me"
 
     # Shell: BASH
     alias reload_bash="source ~/.bashrc"
