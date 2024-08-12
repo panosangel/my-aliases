@@ -41,11 +41,6 @@ macOS_aliases() {
     # Networking
     alias my_local_ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
-    # GoTo section
-    alias gt_docs="cd ~/Documents"
-    alias gt_dl="cd ~/Downloads"
-    alias gt_projects="cd ~/Documents/My_Projects"
-
     # my-alias inception
     alias update_my_aliases="wget -q -O ~/.my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && chmod 644 ~/.my-aliases.sh && reload_zsh"
 }
@@ -69,11 +64,6 @@ gnuLinux_aliases() {
     alias my_iptables="sudo iptables -vnL --line-numbers"
     alias my_local_ip="sudo ip addr | grep -Eo 'inet (addr:)?([0-9]*\\.){3}[0-9]*' | grep -Eo '([0-9]*\\.){3}[0-9]*' | grep -v '127.0.0.1'"
     alias active_tunnels="sudo lsof -i -n | egrep '\<ssh\>'"
-
-    # GoTo section
-    alias gt_docs="cd ~/Documents"
-    alias gt_dl="cd ~/Downloads"
-    alias gt_projects="cd ~/My_Projects"
 
     # my-alias inception
     alias update_my_aliases="sudo wget -q -O /etc/profile.d/my-aliases.sh https://raw.githubusercontent.com/panosangel/my-aliases/master/src/my-aliases.sh && sudo chmod 644 /etc/profile.d/my-aliases.sh"
